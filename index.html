@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+</head>
+
+<body>
+    <h1 id="heading">Hello World</h1>
+    <button onclick="changetitle()">Change Title</button>
+
+    <script>
+        let title = document.getElementById("heading")
+        // console.log(title);
+        function changetitle() {
+            //function scope
+            title.innerHTML = "Button Pressed"
+            return
+        }
+    </script>
+</body>
+
+</html>
