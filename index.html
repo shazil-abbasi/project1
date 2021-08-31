@@ -9,16 +9,26 @@
 </head>
 
 <body>
-    <h1 id="heading">Hello World</h1>
-    <button onclick="changetitle()">Change Title</button>
+    <h1 id="heading" style="color: blue;">Hello World</h1>
+    <ul>
+        <li>
+            <a href="./index.html">Home Page</a>
+        </li>
+        <li>
+            <a href="./contactus.html">Contact Us</a>
+        </li>
+        <li>
+            <a href="./About.html">About</a>
+        </li>
+
+    </ul>
+    <!-- <button onclick="changetitle()">Change Title</button> -->
 
     <script>
         let title = document.getElementById("heading")
         // console.log(title);
         function changetitle() {
-            //function scope
-            title.innerHTML = "Button Pressed"
-            return
+            
         }
     </script>
 </body>
